@@ -29,5 +29,6 @@ let total = 0
 for (const number of numbers) {
     total += number;
 }
-
 console.log(total);
+
+console.log('ASCII code 64 to string: ', String.fromCharCode(66))
