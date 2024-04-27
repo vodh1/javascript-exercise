@@ -34,4 +34,3 @@ This repository contains a series of JavaScript exercises designed to help under
 **Objective:** Apply `.map`, `.forEach`, and `.reduce` in practical scenarios.
 - **File:** `combinedExercise.js`
 - **Task:** Generate a list of personalized greetings and calculate the average age.
-
