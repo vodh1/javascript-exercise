@@ -8,3 +8,26 @@
    BOB
    CHARLIE 
 */
+
+const names = ["Alice", "Bob", "Charlie"]
+
+for (const name of names) {
+    console.log(name.toUpperCase());
+}
+
+/* 
+Exercise:
+  Get the sum of all numbers in the array
+Sample Input: 
+  [1,2,3,4,5]
+Expected Output: 
+  15
+*/
+
+const numbers = [1,2,3,4,5]
+let total = 0
+for (const number of numbers) {
+    total += number;
+}
+
+console.log(total);
