@@ -6,7 +6,7 @@ Expected Output:
   [2, 4, 6, 8, 10]
 */
 
-const numbers = [1,2,3,4,5]
+const numbers = [1, 2, 3, 4, 5]
 
 const new_numbers = numbers.map(number => {
   return number * 2

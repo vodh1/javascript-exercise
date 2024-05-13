@@ -6,29 +6,29 @@ Sample Input:
 Expected Output:
   150
 */
-// const numbers = [10,20,30,40,50]
-// let total = 0
-// let i =0
-// numbers.forEach((number)=> {
-//   total += number;
-//   console.log(number)
-// });
-
-// console.log(total);
-
-/*  
- Exercise: 
+/*
+ Exercise:
    Create an array of names and use the .forEach loop to print each name in uppercase.
- Sample Input:  
+ Sample Input:
    ["Alice", "Bob", "Charlie"]
  Expected Output:
    ALICE
    BOB
-   CHARLIE 
+   CHARLIE
 */
 
-const names = ["Alice", "Bob", "Charlie"]
+// const names = ["Alice", "Bob", "Charlie"]
 
-names.forEach((name) => {
-  console.log(name.toUpperCase());
+// names.forEach((name) => {
+//   console.log(name.toUpperCase());
+// });
+
+const numbers = [1, 2, 3, 4, 5]
+let totalNumbers = 0
+
+numbers.forEach((number) => {
+  totalNumbers += number
 });
+
+console.log(totalNumbers)
+// Output: 15
